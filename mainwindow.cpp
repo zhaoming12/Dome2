@@ -11,7 +11,7 @@ MainWindow::MainWindow(QWidget *parent) :
     //把背景设为黑色
     ui->label->clear();
     QPalette palette;
-    palette.setColor(QPalette::Background, QColor(0, 0, 0));
+    palette.setColor(QPalette::Background, QColor(255, 0, 0));
     ui->label->setAutoFillBackground(true);  //一定要这句，否则不行,要绘制的图像区域
     ui->label->setPalette(palette);
 }
